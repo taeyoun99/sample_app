@@ -4,7 +4,7 @@ module ApplicationHelper
     base_title = "Ruby on Rails Tutorial Sample App"
     if @title.nil?
       base_title
-    els
+    else
       "#{base_title} | #{@title}"
     end
   end
